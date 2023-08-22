@@ -1,1 +1,12 @@
-sample configmap for qa2 api
+apiVersion: v1
+data:
+  APNS_HOST: api.development.push.apple.com
+  AWS_REGION:  "1"
+  COM_ENV: prod
+kind: ConfigMap
+metadata:
+  name: configmap
+  namespace: xyz
+
+
+  #git@github.com:saurabhjain940/config-sync-test.git
