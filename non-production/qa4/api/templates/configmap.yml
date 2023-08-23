@@ -2,9 +2,9 @@ apiVersion: v1
 data:
   APNS_HOST: api.development.push.apple.com
   AWS_REGION: "1"
-  COM_ENV: prod
+  COM_ENV: nonprod
 kind: ConfigMap
 metadata:
   annotation: 
   name: configmap
-  namespace: xyz
+  namespace: abc
