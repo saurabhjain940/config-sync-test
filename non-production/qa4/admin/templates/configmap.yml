@@ -2,12 +2,10 @@ apiVersion: v1
 data:
   APNS_HOST: api.development.push.apple.com
   AWS_REGION: "1"
-  COM_ENV: prod
-kind: ConfigMap
+  AWS_REGION: 1
+  COM_ENV: nonprod
+Kind: ConfigMap
 metadata:
   annotation: 
   name: configmap
-  namespace: xyz
-
-
-  git@github.com:saurabhjain940/config-sync-test.git
+  namespace: mnr
