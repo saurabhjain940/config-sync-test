@@ -10,4 +10,4 @@ metadata:
   namespace: xyz
 
 
-  #git@github.com:saurabhjain940/config-sync-test.git
+  git@github.com:saurabhjain940/config-sync-test.git
