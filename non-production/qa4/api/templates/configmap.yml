@@ -8,6 +8,3 @@ metadata:
   annotation: 
   name: configmap
   namespace: xyz
-
-
-  #git@github.com:saurabhjain940/config-sync-test.git
